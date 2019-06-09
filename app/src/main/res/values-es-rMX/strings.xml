@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Reloj de Escritorio</string>
+    <string name="about">Acerca de</string>
+    <string name="about_app_name">Reloj de Escritorio</string>
+    <string name="about_copyright">Copyright © 2018. Todos los derechos reservados.</string>
+    <string name="warning1">La pantalla siempre permanecerá encendida</string>
+    <string name="warning2">pantalla de tu dispositivo siempre encendida</string>
+    <string name="str_es">Español</string>
+    <string name="str_en">Inglés</string>
+    <string name="show_seconds">Mostrar segundos</string>
+    <string name="show_date">Mostrar fecha</string>
+    <string name="show_24h">Modo 24 horas</string>
+    <string name="exit">Salir</string>
+    <string name="activity_main">Reloj de Escritorio</string>
+    <string name="activity_clock">Reloj</string>
+    <string name="activity_about">Acerca de</string>
+    <string name="show_battery">Mostrar estado de batería</string>
+    <string name="brightness">Brillo</string>
+    <string name="confirm">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="colorPickerDialogTitle">Seleccione un color</string>
+    <string name="colorPickerDialogPreferenceName">Selector de color</string>
+    <string name="button_chooseColor">Seleccionar</string>
+    <string name="neutral">Gris Obscuro</string>
+    <string name="text_color">Color de texto</string>
+    <string name="night_mode">Modo nocturno</string>
+    <string name="alertDialog_title">Importante!</string>
+    <string name="alertDialog_positiveButton">Confirmar</string>
+    <string name="alertDialog_negativeButton">Cancelar</string>
+    <string name="alertDialog_message">"Esta app necesita permisos para trabajar correctamente. Por favor acepta los permisos necesarios. De lo contrario, esta aplicación se cerrará. "</string>
+</resources>
