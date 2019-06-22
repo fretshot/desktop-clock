@@ -2,6 +2,7 @@
 
 <ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:fillViewport="true"
@@ -9,10 +10,8 @@
     android:scrollbarStyle="insideInset">
 
     <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="wrap_content"
         tools:context=".activity_main">
 
         <TextView
@@ -23,7 +22,8 @@
             android:layout_marginTop="20dp"
             android:text="@string/show_date"
             android:textColor="@color/colorPrimary"
-            android:textSize="16sp"/>
+            android:textSize="16sp"
+            tools:ignore="RelativeOverlap" />
 
         <Switch
             android:id="@+id/switch_show_date"
@@ -48,7 +48,8 @@
             android:layout_marginTop="80dp"
             android:text="@string/show_seconds"
             android:textColor="@color/colorPrimary"
-            android:textSize="16sp"/>
+            android:textSize="16sp"
+            tools:ignore="RelativeOverlap" />
 
         <Switch
             android:id="@+id/switch_show_seconds"
@@ -73,7 +74,8 @@
             android:layout_marginTop="140dp"
             android:text="@string/show_24h"
             android:textColor="@color/colorPrimary"
-            android:textSize="16sp"/>
+            android:textSize="16sp"
+            tools:ignore="RelativeOverlap" />
 
 
         <Switch
@@ -99,7 +101,8 @@
             android:layout_marginTop="200dp"
             android:text="@string/show_battery"
             android:textColor="@color/colorPrimary"
-            android:textSize="16sp"/>
+            android:textSize="16sp"
+            tools:ignore="RelativeOverlap" />
 
         <Switch
             android:id="@+id/switch_show_battery"
@@ -124,7 +127,8 @@
             android:layout_marginTop="260dp"
             android:text="@string/night_mode"
             android:textColor="@color/colorPrimary"
-            android:textSize="16sp"/>
+            android:textSize="16sp"
+            tools:ignore="RelativeOverlap" />
 
         <Switch
             android:id="@+id/switch_night_mode"
@@ -152,7 +156,8 @@
             android:layout_marginTop="320dp"
             android:text="@string/warning1"
             android:textColor="#FF0000"
-            android:textSize="12sp"/>
+            android:textSize="12sp"
+            tools:ignore="RelativeOverlap" />
 
 
     </RelativeLayout>

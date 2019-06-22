@@ -6,28 +6,14 @@
     <string name="show_seconds">Show seconds</string>
     <string name="show_24h">Mode 24 hours</string>
     <string name="show_battery">Show battery status</string>
-    <string name="brightness">Brightness</string>
-    <string name="text_color">Text color</string>
-    <string name="button_chooseColor">Select</string>
     <string name="night_mode">Night mode</string>
 
     <string name="warning1">The screen will always stay ON</string>
-    <string name="warning2">screen of your device always ON</string>
 
-    <string name="about">About</string>
     <string name="exit">Exit</string>
 
     <string name="activity_main">Desktop Clock</string>
     <string name="activity_clock">Clock</string>
-    <string name="activity_about">About</string>
-
-    <string name="about_app_name">Desktop Clock</string>
-    <string name="about_copyright">Copyright © 2018. All Rights Reserved.</string>
-
-    <string name="colorPickerDialogTitle">Select a color</string>
-    <string name="colorPickerDialogPreferenceName">Color selector</string>
-    <string name="confirm">Confirm</string>
-    <string name="cancel">Cancel</string>
 
     <string name="str_en" >English</string>
     <string name="str_es" >Spanish</string>
@@ -35,10 +21,6 @@
         <item>@string/str_en</item>
         <item>@string/str_es</item>
     </string-array>
-    <string name="alertDialog_title">Important!</string>
-    <string name="alertDialog_message">This app needs permissions to work correctly. Please accept the necessary permissions. Otherwise this application will be closed.</string>
-    <string name="alertDialog_positiveButton">Confirm</string>
-    <string name="alertDialog_negativeButton">Cancel</string>
 
 
 </resources>
