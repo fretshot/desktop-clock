@@ -14,9 +14,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="HardcodedDebugMode">
-        <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5248686580922732~6116847560"/>
 
         <activity
             android:name=".activity_main"
@@ -47,12 +44,6 @@
             android:parentActivityName=".activity_main">
         </activity>
 
-        <activity
-            android:name=".activity_about"
-            android:label="@string/activity_about"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".activity_main">
-        </activity>
 
     </application>
 

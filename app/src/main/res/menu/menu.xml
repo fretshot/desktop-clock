@@ -10,11 +10,6 @@
         app:showAsAction="always"
         android:icon="@drawable/start"/>
 
-    <item android:id="@+id/acerca_de"
-        android:title="@string/about"
-        app:showAsAction="never"
-        android:icon="@drawable/info2"/>
-
     <item android:id="@+id/salir"
         android:title="@string/exit"
         app:showAsAction="never"

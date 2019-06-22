@@ -74,7 +74,7 @@ public class activity_clock extends AppCompatActivity{
 
 
 
-        if(state_sw5 == true) {
+        if(state_sw5) {
             time.setTextColor(Color.parseColor(grayColor));
             date.setTextColor(Color.parseColor(grayColor));
         }else{
@@ -82,13 +82,13 @@ public class activity_clock extends AppCompatActivity{
             date.setTextColor(Color.WHITE);
         }
 
-        if (state_sw1 == true ){
+        if (state_sw1){
             date.setVisibility(View.VISIBLE);
         }else{
             date.setVisibility(View.INVISIBLE);
         }
 
-        if (state_sw4 == true ){
+        if (state_sw4){
             battery.setVisibility(View.VISIBLE);
             battery_icon.setVisibility(View.VISIBLE);
         }else{
@@ -114,28 +114,28 @@ public class activity_clock extends AppCompatActivity{
                                 BatteryManager batteryManager = (BatteryManager)getSystemService(BATTERY_SERVICE);
                                 int batteryLevel = batteryManager.getIntProperty(BatteryManager.BATTERY_PROPERTY_CAPACITY);
 
-                                String x = String.valueOf(batteryLevel)+"%";
+                                String x = batteryLevel +"%";
                                 battery.setText(x);
 
-                                if (states_w2 == false && states_w3 == false){
+                                if (!states_w2 && !states_w3){
                                     DateFormat dateFormat_time = new SimpleDateFormat("hh:mm a");
                                     final String string_time = dateFormat_time.format(Calendar.getInstance().getTime());
                                     time.setText(string_time);
                                 }
 
-                                if (states_w2 == true && states_w3 == false){
+                                if (states_w2 && !states_w3){
                                     DateFormat dateFormat_time = new SimpleDateFormat("hh:mm:ss a");
                                     final String string_time = dateFormat_time.format(Calendar.getInstance().getTime());
                                     time.setText(string_time);
                                 }
 
-                                if (states_w2 == false && states_w3 == true){
+                                if (!states_w2 && states_w3){
                                     DateFormat dateFormat_time = new SimpleDateFormat("HH:mm");
                                     final String string_time = dateFormat_time.format(Calendar.getInstance().getTime());
                                     time.setText(string_time);
                                 }
 
-                                if (states_w2 == true && states_w3 == true){
+                                if (states_w2 && states_w3){
                                     DateFormat dateFormat_time = new SimpleDateFormat("HH:mm:ss");
                                     final String string_time = dateFormat_time.format(Calendar.getInstance().getTime());
                                     time.setText(string_time);
@@ -157,10 +157,6 @@ public class activity_clock extends AppCompatActivity{
         };
 
         thread.start();
-
-
-
-
 
     }
 
